@@ -10,57 +10,65 @@
 
     <link type="text/css" rel="stylesheet" href="../css/index.css" />
 
-    <link href="https://fonts.googleapis.com/css2?family=Itim&family=Montserrat&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <header class="header">
-        <div class="espaco">
-            <div class="itens">
-                <h3><img src="../img/LogoHommy.png" alt="Logo do Hommy"></h3>
-            </div>
-        </div>
-    </header>
-
-    <section class="secao" id="primeira secao">
-        <div class="espaco">
-            <div class="itens">
-                <div class="slogan">
-                    <h1 class="titulo">
-                        <p>Anuncie de graça com o Hommy</p>
-                    </h1>
-                    <h2 class="comentario">
-                        <p>Aluguéis com ate 15% de desconto em quartos no app</p>
-                    </h2>
+    <div class="background">
+        <header class="header">
+            <nav class="navbar">
+                <ul>
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="#">Sobre</a></li>
+                </ul>
+            </nav>
+            <div class="espaco">
+                <div class="itens">
+                    <h3><img src="../img/LogoHommy.png" alt="Logo do Hommy"></h3>
                 </div>
-                <nav class="navbar">
-                    <div class="inscreva-se" id="email">
-                        <h2>
-                            <form class="inscreva-se" action="index.html">
-                                <label for="email">Email:</label>
-                                <input type="email" id="email" name="email">
-                                <input type="submit" value="Inscreva-se">
-                            </form>
+            </div>
+        </header>
+
+        <section class="secao" id="primeiraSecao">
+            <div class="espaco">
+                <div class="itens">
+                    <div class="slogan">
+                        <h1 class="titulo">
+                            <p>Anuncie de graça com o Hommy</p>
+                        </h1>
+                        <h2 class="comentario">
+                            <p>Aluguéis com ate 15% de desconto em quartos no app</p>
                         </h2>
                     </div>
-                    <h3 class="comentario">
-                        É isso mesmo que você ouviu! Até de 15% de desconto no app do Hommy na república dos seus
-                        sonhos!
-                    </h3>
-                    <h1 class="baixar"><a href="#">Baixe aqui!!</a>
-                    </h1>
-                </nav>
+                    <div class="email_comentario">
+                        <div class="inscreva-se" id="email">
+                            <h2>
+                                <form class="inscreva-se" action="index.html">
+                                    <label for="email">Email:</label>
+                                    <input type="email" id="email" name="email">
+                                    <input id="botao" type="submit" value="Inscreva-se">
+                                </form>
+                            </h2>
+                        </div>
+                        <h3 class="comentario">
+                            É isso mesmo que você ouviu! Até de 15% de desconto no app do Hommy na república dos seus sonhos!
+                        </h3>
+                    </div>
+                </div>
+                <div class="store">
+                    <a class="playstore" href="#"><img src="../img/playstore.png" alt="playstore"></a>
+                    <a class="appstore" href="#"><img src="../img/appstore.png" alt="appstore"></a>
+                </div>
                 <div class="img">
                     <img src="../img/PgHommy.png" alt="Telas do app">
                 </div>
             </div>
-        </div>
-    </section>
-    <section class="section" id="segunda secao">
+        </section>
+    </div>
+    <section class="section" id="segundaSecao">
         <div class="espaco">
             <div class="itens">
-                <div class="bloco espaco">
-                    <div class="bloco um">
+                <div class="blocoEspaco">
+                    <div class="blocoUm">
                         <div class="icon">
                             <img src="../img/b1.png" alt="Navegar">
                         </div>
@@ -68,11 +76,10 @@
                             Navegue com tranquilidade no app!
                         </h3>
                         <h4 class="texto">
-                            Pensando em você nosso app é estilizado para trazer suavidade ao navegar por ele, com uma
-                            cor de fundo mais escura é como navegar por suas redes sociais tranquilamente.
+                            Pensando em você nosso app é estilizado para trazer suavidade ao navegar por ele, com uma cor de fundo mais escura é como navegar por suas redes sociais tranquilamente.
                         </h4>
                     </div>
-                    <div class="bloco dois">
+                    <div class="blocoDois">
                         <div class="icon">
                             <img src="../img/b2.png" alt="rapidez">
                         </div>
@@ -80,12 +87,10 @@
                             Fácil, rápido e sem perca de tempo!
                         </h3>
                         <h4 class="texto">
-                            Garantimos a sua fácil ultilização de nossos serviços através de maneiras simples tanto de
-                            compra quanto de venda e mesmo que você não possua conta, navegue e veja os mais variados
-                            anuncios da republica dos seus sonhos!
+                            Garantimos a sua fácil ultilização de nossos serviços através de maneiras simples tanto de compra quanto de venda e mesmo que você não possua conta, navegue e veja os mais variados anuncios da republica dos seus sonhos!
                         </h4>
                     </div>
-                    <div class="bloco tres">
+                    <div class="blocoTres">
                         <div class="icon">
                             <img src="../img/b3.png" alt="seguranca">
                         </div>
@@ -101,23 +106,26 @@
         </div>
     </section>
     <div class="espaco">
-        <section class="section" id="terceira secao">
+        <section class="section" id="terceiraSecao">
             <div class="itens">
-                <h3 class="frase usuario">
+                <h3 class="fraseUsuario">
                     "Com esse app eu consegui de maneira fácil e rapida alugar e anunciar uma republica"
                 </h3>
                 <h4 class="usuario">Neide Silva
                 </h4>
-                <form class="inscreva-se" action="index.html">
-                    <input type="submit" value="Inscreva-se">
+                <form class="inscrevase" action="index.html">
+                    <input id="botao" type="submit" value="Inscreva-se">
                 </form>
             </div>
         </section>
 
         <footer class="footer">
-            <h4> <a href="#">Termos de Uso</a>
-                copyright © 2020 Hommy
-            </h4>
+            <div class="final">
+                <p id="termo"><a href="#">Termos de Uso</a></p>
+                <p id="copy">copyright © 2020 Hommy</p>
+            </div>
+
+
         </footer>
     </div>
 </body>

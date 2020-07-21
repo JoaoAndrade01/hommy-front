@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+#primeiraSecao {
+    color: #F2ECFF;
+}
+
+.background {
+    background-color: #7724FF;
+    width: 100%;
+    height: 100%;
+}
+
+.navbar a {
+    margin-left: 1%;
+    text-decoration: none;
+    color: #F2ECFF;
+    font-size: 1.5vw;
+}
+
+.header .itens h3 {
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: center;
+}
+
+#primeiraSecao .espaco {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.store img {
+    height: 20%;
+    width: 20%;
+}
+
+.store .playstore {
+    padding-left: 22%;
+}
+
+.store .appstore {
+    padding-left: 16%;
+}
+
+div .img {
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.img img {
+    height: 100%;
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.5vw;
+    font-weight: 800;
+}
+
+h2 {
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    text-align: center;
+    font-size: 1.5vw;
+    font-weight: lighter;
+}
+
+#primeiraSecao h3 {
+    padding-top: 1vw;
+    text-align: center;
+    font-size: 1vw;
+    font-weight: lighter;
+}
+
+.icon img {
+    height: 3.5vw;
+    width: 3.5vw;
+}
+
+#botao {
+    border-radius: 5px;
+    font-size: 1.5vw;
+    cursor: pointer;
+}
+
+#email {
+    border-radius: 5px;
+    width: 50%0%;
+    height: 1%;
+}
+
+#segundaSecao .espaco {
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 4%;
+    padding-bottom: 6%;
+}
+
+#segundaSecao .blocoEspaco {
+    display: flex;
+    flex-direction: row;
+    justify-content: inherit;
+    align-content: inherit;
+    align-items: baseline;
+    color: #1F1926;
+}
+
+#segundaSecao h3 {
+    text-align: left;
+    font-size: 1.5vw;
+    font-weight: 800;
+}
+
+#segundaSecao h4 {
+    padding-top: 10%;
+    padding-right: 20%;
+    font-size: 1vw;
+    font-weight: lighter;
+}
+
+body .espaco {
+    padding-left: 25%;
+    padding-right: 25%;
+}
+
+#terceiraSecao .fraseUsuario {
+    text-align: auto;
+    font-size: 1.5vw;
+    font-weight: 800;
+}
+
+#terceiraSecao .usuario {
+    padding-left: 20%;
+    text-align: auto;
+    font-size: 1.3vw;
+    font-weight: lighter;
+}
+
+#terceiraSecao .inscrevase {
+    padding-left: 45%;
+    padding-right: 45%;
+    padding-top: 15%;
+}
+
+footer {
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 10%;
+}
+
+footer a {
+    text-decoration: none;
+    color #1F1926;
+}
+
+footer .final {
+    padding-right: 5%;
+    padding-left: 5%;
+}
+
+footer p {
+    text-align: center;
+    font-size: 1vw;
+    font-weight: lighter;
+}
